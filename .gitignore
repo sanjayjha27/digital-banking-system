@@ -1,0 +1,41 @@
+# =========================
+# Java / Spring Boot
+# =========================
+backend/target/
+backend/.mvn/
+*.class
+
+# IntelliJ IDEA
+backend/.idea/
+backend/*.iml
+
+# =========================
+# React / Node
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE
+# =========================
+.vscode/
